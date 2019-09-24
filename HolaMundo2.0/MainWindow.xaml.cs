@@ -31,11 +31,15 @@ namespace HolaMundo2._0
             {
                 SaludoTextBlock.Text = $"Hola " + NombreTextBox.Text;
             }
+            else
+            {
+                SaludoTextBlock.Text = "Hola mundo";
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            SaludoTextBlock.Text = "Hola mundo ";
+            SaludoTextBlock.Text = "Hola mundo";
             NombreTextBox.Text = "";
         }
     }
